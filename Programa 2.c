@@ -10,12 +10,13 @@ int main ()
   {
     // Se almacena un número en cada elemento del arreglo unidimensional usando for
     for (indice = 0 ; indice <= numeroElementos-1 ; indice++) 
-      {
-        printf("\nDar un número entero para el elemento %d del arreglo ", indice );
-        scanf("%d",&lista[indice]);
-      }
+    {
+      printf("\nDar un número entero para el elemento %d del arreglo ", indice );
+      scanf("%d",&lista[indice]);
+    }
     printf("\nLos valores dados son: \n");
     // Se muestra el número almacenado en cada elemento del arreglo unidimensional usando for for (indice = 0 ; indice <= numeroElementos-1 ; indice++)
+    for (indice = 0 ; indice <= numeroElementos-1 ; indice++)
     {
       printf("%d  ", lista[indice] );
     }
